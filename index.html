@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KrishAra Studio - Edit Your Era With Flux</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <img loading="lazy" src="Screenshot 2025-12-03 230544.png" alt="KrishAra Studio Logo" class="logo-img" onerror="this.onerror=null; this.src='logo.png'; this.onerror=function(){this.style.display='none'; const fallback=document.querySelector('.logo .logo-fallback'); if(fallback) fallback.style.display='inline-block';};">
+                <i class="fas fa-video logo-fallback" style="display:none;"></i>
+                <span class="logo-text">KrishAra Studio</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-overlay"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-star"></i>
+                <span>Premium Video Editing Studio</span>
+            </div>
+            <h1 class="hero-title animate-fade-in">
+                <span class="gradient-text typing-text">Edit Your Era</span><br>
+                <span class="gradient-text-2">With Flux</span>
+            </h1>
+            <p class="hero-subtitle animate-slide-up">Professional video editing services that bring your stories to life with cinematic excellence</p>
+            <div class="hero-buttons animate-fade-in-delay">
+                <a href="#portfolio" class="btn btn-primary">
+                    <span class="btn-content">
+                        <i class="fas fa-play-circle"></i> 
+                        <span>View Our Work</span>
+                    </span>
+                    <div class="btn-shine"></div>
+                </a>
+                <a href="mailto:Krisharastudo@gmail.com" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Hire Now
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="stat-value">120+</div>
+                    <div class="stat-desc">Projects</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="stat-value">55+</div>
+                    <div class="stat-desc">Clients</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="stat-value">5+</div>
+                    <div class="stat-desc">Years</div>
+                </div>
+            </div>
+        </div>
+        
+            
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive video editing solutions for every need</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-card-bg"></div>
+                    <div class="service-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="service-number">01</div>
+                    <h3>Video Editing</h3>
+                    <p>Professional cutting, trimming, and sequencing to create seamless narratives</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Color Grading</li>
+                        <li><i class="fas fa-check"></i> Audio Mixing</li>
+                        <li><i class="fas fa-check"></i> Transitions</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card-bg"></div>
+                    <div class="service-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="service-number">02</div>
+                    <h3>Visual Effects</h3>
+                    <p>Stunning VFX and motion graphics to elevate your content</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Motion Graphics</li>
+                        <li><i class="fas fa-check"></i> 3D Animation</li>
+                        <li><i class="fas fa-check"></i> Compositing</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card-bg"></div>
+                    <div class="service-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="service-number">03</div>
+                    <h3>Audio Production</h3>
+                    <p>Professional audio editing, mixing, and sound design</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Sound Design</li>
+                        <li><i class="fas fa-check"></i> Voice Over</li>
+                        <li><i class="fas fa-check"></i> Music Scoring</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card-bg"></div>
+                    <div class="service-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-youtube"></i>
+                    </div>
+                    <div class="service-number">04</div>
+                    <h3>Content Creation</h3>
+                    <p>YouTube, social media, and marketing video production</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Social Media Videos</li>
+                        <li><i class="fas fa-check"></i> YouTube Content</li>
+                        <li><i class="fas fa-check"></i> Commercial Ads</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Portfolio</h2>
+                <p class="section-subtitle">Showcasing our best work and creative excellence</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="zoom-in">
+                    <div class="portfolio-video">
+                        <div class="portfolio-badge">Featured</div>
+                        <video controls poster="Media/Project_03_0812/poster.jpg" preload="none">
+                            <source data-src="Media/Project_03_0812/Project_03_0812.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="portfolio-overlay">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h4>Commercial Advertisement</h4>
+                            <p>High-end product showcase</p>
+                            <div class="portfolio-tags">
+                                <span>Editing</span>
+                                <span>Color Grading</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100" data-video="Media/Timeline 1/Timeline 1.mp4" data-title="Documentary Film" data-desc="Cinematic storytelling" data-tags="Documentary,Cinematic">
+                    <div class="portfolio-video">
+                        <div class="portfolio-badge">New</div>
+                        <video controls poster="Media/Timeline 1/poster.jpg" preload="none">
+                            <source data-src="Media/Timeline 1/Timeline 1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="portfolio-overlay">
+                            <div class="play-button" aria-hidden="true">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h4>Documentary Film</h4>
+                            <p>Cinematic storytelling</p>
+                            <div class="portfolio-tags">
+                                <span>Documentary</span>
+                                <span>Cinematic</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-video">
+                        <div class="portfolio-badge">Trending</div>
+                        <video controls poster="https://via.placeholder.com/600x400/0f3460/ffffff?text=Music+Video" preload="none">
+                            <source data-src="Media/Timeline 2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="portfolio-overlay">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h4>Color Grading</h4>
+                            <p>Creative</p>
+                            <div class="portfolio-tags">
+                                <span>Color Grading</span>
+                                <span>Creative</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300" data-video="Media/Timeline 1 pc/Timeline 1 pc.mp4" data-title="Commercial Advertisement" data-desc="Commercial ad" data-tags="Commercial,Advertising">
+                    <div class="portfolio-video">
+                        <div class="portfolio-badge">New</div>
+                        <video controls poster="https://via.placeholder.com/600x400/0f3460/ffffff?text=Commercial+Ad" preload="none">
+                            <source data-src="Media/Timeline 1 pc/Timeline 1 pc.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="portfolio-overlay">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <h4>Commercial Advertisement</h4>
+                            <p>Commercial ad</p>
+                            <div class="portfolio-tags">
+                                <span>Commercial</span>
+                                <span>Advertising</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2 class="section-title">About KrishAra Studio</h2>
+                    <p>With over 3 years of combined experience, we are passionate about transforming raw footage into compelling visual stories. Our team of expert editors, colorists, and motion graphics artists work together to deliver exceptional results.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="120+">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="55+">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3+">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-placeholder">
+                        <i class="fas fa-video"></i>
+                        <p>Professional Editing Suite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's bring your vision to life</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-up">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Agra, Uttar Pradesh, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9719593600</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>Krisharastudio@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1FCrvzyYnR/" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/krishara_editz" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@KrishAra_Studio" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:Krisharastudio@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-video"></i> KrishAra Studio</h3>
+                    <p>Edit your era with Flux, one frame at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Video Editing</a></li>
+                        <li><a href="#">Visual Effects</a></li>
+                        <li><a href="#">Audio Production</a></li>
+                        <li><a href="#">Content Creation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates on our latest work</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KrishAra Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
